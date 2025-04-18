@@ -16,4 +16,14 @@ A simple Discord bot to manage user points on a server. Users can give or remove
 ```bash
 git clone https://github.com/your-profile/discord-points-bot.git
 cd discord-points-bot
+```
+
+## 📜 Available Commands
+
+| Command | Description |
+|--------|-------------|
+| `!points_of @user` | Shows the mentioned user's points. |
+| `!give_points @user amount reason` | Adds amount point to the user with a reason (you can't give points to yourself). |
+| `!remove_points @user amount reason` | Removes amount point from the user with a reason (you can't remove points from yourself). |
+
 
